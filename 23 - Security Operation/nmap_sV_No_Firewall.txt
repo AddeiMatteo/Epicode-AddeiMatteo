@@ -1,0 +1,13 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-06-26 14:29 BST
+Nmap scan report for 192.168.240.150
+Host is up (0.0049s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds  Microsoft Windows XP microsoft-ds
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 21.75 seconds
